@@ -8,7 +8,7 @@ Stack: Apache Maven, Spring boot 2.40, Java Version 15, Sqlite version 3, Angula
 
 Run the project with the right dependencies. 
 
-Currently the API for creating and updating  Bus ticket has been completed.
+Currently the API for creating and updating  Bus ticket has been completed and has been tested using Postman. 
 
 After running the project you can check the API with following link
 
