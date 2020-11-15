@@ -4,7 +4,7 @@ A Java Web project using Spring boot and Angular JS.
 
 It is purposed for buying and selling ticket online for different types of transport, Concert, events. 
 
-Stack: Apache Maven, Spring boot 2.40, Java Version 15 Sqlite version 3. (IDE: IntelliJ) 
+Stack: Apache Maven, Spring boot 2.40, Java Version 15, Sqlite version 3. (IDE: IntelliJ) 
 
 Run the project with the right dependencies. 
 
