@@ -14,6 +14,7 @@ export class ViewBusinfoComponent implements OnInit {
   ngOnInit(): void {
     this.getBusInfo(this.route.snapshot.params.id);
   }
+
   getBusInfo(id:number){
     this.busService.getBus(id).subscribe(
       data=> {
