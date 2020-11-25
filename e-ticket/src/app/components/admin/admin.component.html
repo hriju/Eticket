@@ -1,17 +1,20 @@
 <div class="container">
   <a mat-button [routerLink]="'/busregistration'" style="color:blue"> Add New Bus</a>
-  <table class="table table-bordered table-inverse">
-    <tr>
-        <th>Bus Name</th>
-      <th>From Location</th>
-       <th>To Location</th>
-       <th>Bus Number</th>
-       <th>Total Seat</th>
-       <th>Departure Time</th>
-       <th>Arrival Time</th>
-       <th>Price</th>
-       <th>Action</th>
-    </tr>
+  <!--<table  class="table table-bordered table-inverse">-->
+    <table datatable [dtOptions]="dtOptions" class="row-border hover">
+      <thead>
+        <tr>
+            <th>Bus Name</th>
+            <th>From Location</th>
+            <th>To Location</th>
+            <th>Bus Number</th>
+            <th>Total Seat</th>
+            <th>Departure Time</th>
+            <th>Arrival Time</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+      </thead>
     <tr *ngFor="let bus of buses">
       <td>
         {{bus.busname}}

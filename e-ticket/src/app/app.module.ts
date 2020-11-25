@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { DataTablesModule } from 'angular-datatables';
 import {HttpClientModule}from'@angular/common/http';
 
 import {ReactiveFormsModule } from '@angular/forms';
@@ -29,6 +30,7 @@ import { DeleteBusinfoComponent } from './components/delete-businfo/delete-busin
   imports: [
     BrowserModule,
     AppRoutingModule,
+    DataTablesModule,
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
