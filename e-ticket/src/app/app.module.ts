@@ -14,13 +14,15 @@ import { AppComponent } from './app.component';
 import { BusService } from './services/bus.service';
 import { AdminComponent } from './components/admin/admin.component';
 import { HomeComponent } from './components/home/home.component';
+import { ViewBusinfoComponent } from './components/view-businfo/view-businfo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    ViewBusinfoComponent
   ],
   imports: [
     BrowserModule,
