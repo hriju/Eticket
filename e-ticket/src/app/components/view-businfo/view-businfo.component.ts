@@ -12,7 +12,7 @@ export class ViewBusinfoComponent implements OnInit {
   constructor(private busService:BusService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-  this.getBusInfo(this.route.snapshot.params.id);
+    this.getBusInfo(this.route.snapshot.params.id);
   }
   getBusInfo(id:number){
     this.busService.getBus(id).subscribe(
