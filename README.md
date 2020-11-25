@@ -13,6 +13,6 @@ Currently the API for creating and updating  Bus ticket has been completed and h
 After running the project you can check the API with following link
 
 ```bash
-http://localhost:9000/api/v1/bustickets
+http://localhost:9001/api/v1/bustickets
 ```
 This readme file be contnously updated based on completion of different module. 
