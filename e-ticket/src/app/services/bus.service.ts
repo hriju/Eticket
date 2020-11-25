@@ -18,6 +18,10 @@ export class BusService {
    getBus(id:number){
       return this.http.get('server/api/v1/bustickets/' +id);
    }
+
+   deleteBus(id:number){
+      return this.http.delete('server/api/v1/bustickets/' +id);
+   }
    createBusRegistration(bus){
       let body = JSON.stringify(bus);
       return this.http.post('server/api/v1/bustickets/', body, httpOptions);

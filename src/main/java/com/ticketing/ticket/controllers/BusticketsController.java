@@ -39,4 +39,9 @@ public class BusticketsController {
     public Busticket get(@PathVariable("id") long id) {
       return ticketRepository.getOne(id);
     }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") long id){
+         ticketRepository.deleteById(id);
+    }
 }

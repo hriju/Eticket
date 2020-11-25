@@ -15,6 +15,7 @@ import { BusService } from './services/bus.service';
 import { AdminComponent } from './components/admin/admin.component';
 import { HomeComponent } from './components/home/home.component';
 import { ViewBusinfoComponent } from './components/view-businfo/view-businfo.component';
+import { DeleteBusinfoComponent } from './components/delete-businfo/delete-businfo.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ViewBusinfoComponent } from './components/view-businfo/view-businfo.com
     AppComponent,
     AdminComponent,
     HomeComponent,
-    ViewBusinfoComponent
+    ViewBusinfoComponent,
+    DeleteBusinfoComponent
   ],
   imports: [
     BrowserModule,
