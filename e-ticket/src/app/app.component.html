@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<mat-toolbar color="primary" style="background-color:#39b6bc">
+  <mat-toolbar-row>
+   <!-- <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>-->
+    <h1>Online Ticket Management</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/admin'"> Admin </a>
+      <a mat-button [routerLink]="'/busregistration'"> Bus Registration </a>
+      <a mat-button [routerLink]="'/contacts'"> Contacts </a>
+      <a mat-button [routerLink]="'/create-contact'"> Create Contact </a>
+      <a mat-button [routerLink]="'/activities'"> Activities </a>
+      <a mat-button [routerLink]="'/create-activity'"> Create Activity </a>
+
+    </div>
+  </mat-toolbar-row>
+
+  <!--<mat-toolbar-row>
+    <span style="font-size: 12px;">E Ticketing System</span>
+  </mat-toolbar-row>-->
+</mat-toolbar>
+
+<div style="text-align:center">
+  <h1>
+    Bus ticket service
+  </h1>
+</div>
+<router-outlet> </router-outlet>
+
