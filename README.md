@@ -17,7 +17,7 @@ http://localhost:9001/api/v1/bustickets
 ```
 The Bus module is completed both on backend and frontend. We can add, view, delete any Bus information. The frontend done using Angular JS.
 
-to run the project run the angular project use the following command on  directory e-ticket
+to run the project run the angular project use the following command on terminal,using directory e-ticket
 ```bash
 npm start
 ```
