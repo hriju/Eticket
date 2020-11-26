@@ -15,4 +15,14 @@ After running the project you can check the API with following link
 ```bash
 http://localhost:9001/api/v1/bustickets
 ```
-This readme file be contnously updated based on completion of different module. 
+The Bus module is completed both on backend and frontend. We can add, view, delete any Bus information. The frontend done using Angular JS.
+
+to run the project run the angular project use the following on  directory e-ticket
+```bash
+command npm start
+```
+
+URL for frontend: 
+```bash
+http://localhost:4200/admin
+```
